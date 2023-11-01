@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj": {}
+    "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Prueba seguros\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj": {
+    "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Prueba seguros\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Prueba seguros\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj",
         "projectName": "Consultorio_Backend",
-        "projectPath": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj",
+        "projectPath": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Prueba seguros\\Consultorio_Backend\\Consultorio_Backend\\Consultorio_Backend.csproj",
         "packagesPath": "C:\\Users\\Jordy Sanchez Paiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Consultorio_Backend\\Consultorio_Backend\\obj\\",
+        "outputPath": "C:\\Users\\Jordy Sanchez Paiva\\Documents\\Prueba seguros\\Consultorio_Backend\\Consultorio_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jordy Sanchez Paiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
